@@ -1,0 +1,15 @@
+﻿.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+span {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: transparent;
+    margin-left: -5px;
+}
