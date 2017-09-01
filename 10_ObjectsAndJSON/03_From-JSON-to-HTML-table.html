@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FromJSONToHTMLTable</title>
+    <link rel="stylesheet" type="text/css" href="03_From-JSON-to-HTML-table.css">
+    <script src="03_From-JSON-to-HTML-table.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+    </div>
+    <script>
+        window.onload = function(){
+            let container = document.getElementById('wrapper');
+            container.innerHTML = fromJSONToHTMLTable(['[{"Name":"Tomatoes & Chips","Price":2.35},{"Name":"J&B Chocolate","Price":0.96}]']);
+        };
+    </script>
+</body>
+</html>
+
